@@ -8,7 +8,7 @@ apt_repository "newrelic" do
   action :add
 end
 
-package "newrelic-sysmond" do
-  options "--allow-unauthenticated"
-  action :upgrade
-end
+#package "newrelic-sysmond" do
+#  options "--allow-unauthenticated"
+#  action :upgrade
+#end
